@@ -1,0 +1,71 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
+
+// Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+//homepage
+
+.jumbo-text {
+  font-size: 70px;
+}
+.branding {
+  font-family: 'Source Code Pro', sans-serif;
+  color: #303F9F !important; //override bootstrap colors
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.top-nav {
+  vertical-align: top;
+}
+.container, .row {
+  height: 100%;
+  min-height: 100%;
+}
+
+.nav > li > a {
+  color: #455A64;
+}
+.nav > li > a:hover {
+  color: #303F9F;
+}
+
+html, body {
+  height: 100%;
+}
+
+//pages
+h1, h2 {
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+.title-row {
+  background: #303F9F;
+  color: #FFF;
+}
+
+.nav-item.active > .nav-link {
+  color: #303F9F !important; //override bootstrap colors
+}
+
+.list-title > a {
+  color: #303F9F;
+}
+
+//requirements
+h2.req-title{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+//contact
+.contact-row {
+  max-width: 500px
+}
+.social > div {
+  display: inline-block;
+  padding: 5px
+}
