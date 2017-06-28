@@ -62,7 +62,7 @@ class DatabaseSeeder extends Seeder
           'name' => 'SalesBro and Tier III Resources',
           'imageUrl' => '/sb.png',
           'blurb' => 'When I was first hired at Time Warner Cable, it was for a Customer Service position, I quickly moved into "Tier III", an advanced troubleshooting department that deals with networking issues, outage tracking, and escalated customer issues. While I was in that role I developed "SalesBro", a simple web application to automate some order entry tasks for myself and my department. I hosted it on a local sharepoint site where it quickly gained usage across Wisconsin. After noticing, TWC&#39;s head of Customer Service decided the tool was beneficial and to allow access for all customer facing departments. We then migrated to a MEAN-stack Ubuntu server.</p><p>I then worked full-time on this and one other tool, "Tier III Resources", a knowledge management and training site for Tier III with two other developers, providing maintenance, trainings (in-person, remote, and recorded), and further development. To my knowledge, both tools are still in use today.</p>'
-
+        ]);
         //seed requirements
         App\Requirement::create([
           'id' => '1',
