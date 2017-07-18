@@ -5,7 +5,7 @@
   <title>Mike Pawlak | @yield("title", "Home")</title>
 </head>
 <body>
-  @include('layouts.header', compact($page))
+  @include('layouts.header', compact($page, $color))
   @yield("content")
 
   @yield("scripts")

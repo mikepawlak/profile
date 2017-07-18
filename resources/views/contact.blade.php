@@ -1,4 +1,4 @@
-<?php $page = "Contact"; ?>
+<?php $page = "Contact"; $color = "red"?>
 
 @extends('layout', compact($page))
 
@@ -8,12 +8,12 @@
 
 @section('content')
   <div class="container-fluid mt-3">
-    <div class="row title-row p-3">
+    <div class="row title-row-red p-3">
       <div class="col">
       </div>
       <div class="col-12 col-md-8">
         <h1>{{$page}}</h1>
-        <p class="pl-2">My contact information and social media profiles.</p>
+        <p class="pl-2">Some ways to get in touch.</p>
       </div>
       <div class="col">
       </div>

@@ -10200,11 +10200,65 @@ a.text-gray-dark:hover {
   }
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFF url("http://192.168.0.12:8080/img/background.png") repeat 0 0;
+  -webkit-animation: 10s linear 0s normal none infinite animate;
+  animation: 10s linear 0s normal none infinite animate;
+}
+
+@-webkit-keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 500px 0;
+  }
+}
+
+@keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 500px 0;
+  }
+}
+
+.content-body {
+  -webkit-box-shadow: 5px 5px 2px #999;
+          box-shadow: 5px 5px 2px #999;
+  background: rgba(255, 255, 255, 0.8);
+}
+
 .jumbo-text {
   font-size: 70px;
 }
 
 .branding {
+  font-family: 'Source Code Pro', sans-serif;
+  color: #303F9F !important;
+}
+
+.branding-green {
+  font-family: 'Source Code Pro', sans-serif;
+  color: #388E3C !important;
+}
+
+.branding-red {
+  font-family: 'Source Code Pro', sans-serif;
+  color: #D32F2F !important;
+}
+
+.branding-orange {
+  font-family: 'Source Code Pro', sans-serif;
+  color: #F57C00 !important;
+}
+
+.branding-purple {
   font-family: 'Source Code Pro', sans-serif;
   color: #303F9F !important;
 }
@@ -10252,12 +10306,64 @@ h2 {
   color: #FFF;
 }
 
+.title-row-green {
+  background: #388E3C;
+  color: #FFF;
+}
+
+.title-row-red {
+  background: #D32F2F;
+  color: #FFF;
+}
+
+.title-row-purple {
+  background: #512DA8;
+  color: #FFF;
+}
+
+.title-row-orange {
+  background: #F57C00;
+  color: #FFF;
+}
+
 .nav-item.active > .nav-link {
   color: #303F9F !important;
 }
 
+.nav-item.active > .nav-link-green {
+  color: #388E3C !important;
+}
+
+.nav-item.active > .nav-link-red {
+  color: #D32F2F !important;
+}
+
+.nav-item.active > .nav-link-purple {
+  color: #512DA8 !important;
+}
+
+.nav-item.active > .nav-link-orange {
+  color: #F57C00 !important;
+}
+
 .list-title > a {
   color: #303F9F;
+}
+
+.list-title-green > a {
+  color: #388E3C;
+}
+
+.list-title-red > a {
+  color: #D32F2F;
+}
+
+.list-title-purple > a {
+  color: #512DA8;
+}
+
+.list-title-orange > a {
+  color: #F57C00;
 }
 
 h2.req-title {

@@ -14,7 +14,7 @@
       <div class="col">
         <!-- spacer -->
       </div>
-      <div class="col text-center">
+      <div class="col-10 text-center">
         <!-- header -->
         <h1 class="branding jumbo-text">&#60;mike/&#62;</h1>
         <!-- subheader -->
