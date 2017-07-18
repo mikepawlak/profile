@@ -5,14 +5,14 @@
   <a class="navbar-brand branding" href="/"><b>&#60;mike/&#62;</b></a>
   <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item {{$page == "Languages" ? 'active': ''}}">
-        <a class="nav-link" href="/languages">Languages</a>
+      <li class="nav-item {{$page == "Skills" ? 'active': ''}}">
+        <a class="nav-link" href="/skills">Skills</a>
       </li>
       <li class="nav-item {{$page == "Projects" ? 'active': ''}}">
         <a class="nav-link" href="/projects">Projects</a>
       </li>
-      <li class="nav-item {{$page == "Requirements" ? 'active': ''}}">
-        <a class="nav-link" href="/requirements">Requirements</a>
+      <li class="nav-item {{$page == "About" ? 'active': ''}}">
+        <a class="nav-link" href="/about">About</a>
       </li>
       <li class="nav-item {{$page == "Contact" ? 'active': ''}}">
         <a class="nav-link" href="/contact">Contact</a>

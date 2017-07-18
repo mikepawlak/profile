@@ -10209,6 +10209,12 @@ a.text-gray-dark:hover {
   color: #303F9F !important;
 }
 
+.subheader {
+  color: #455A64;
+  margin-top: -10px;
+  font-style: italic;
+}
+
 p {
   font-family: 'Source Sans Pro', sans-serif;
 }

@@ -1,5 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="theme-color" content="#303F9F" />
 
 <!-- general metadata -->
 <meta name="description" content="A Portfolio Site For Mike Pawlak" />
@@ -21,7 +22,6 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/manifest.json">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="theme-color" content="#ffffff">
 
 
 <link href="/css/app.css" rel="stylesheet">

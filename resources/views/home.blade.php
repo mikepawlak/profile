@@ -15,17 +15,21 @@
         <!-- spacer -->
       </div>
       <div class="col text-center">
+        <!-- header -->
         <h1 class="branding jumbo-text">&#60;mike/&#62;</h1>
-
+        <!-- subheader -->
+        <h4 class="subheader">Web Developer</h4>
+        <hr/>
+        <!-- nav -->
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link" href="/languages">Languages</a>
+            <a class="nav-link" href="/skills">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/requirements">Requirements</a>
+            <a class="nav-link" href="/about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/contact">Contact</a>

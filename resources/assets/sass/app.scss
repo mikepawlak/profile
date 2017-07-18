@@ -16,6 +16,11 @@
   font-family: 'Source Code Pro', sans-serif;
   color: #303F9F !important; //override bootstrap colors
 }
+.subheader {
+  color: #455A64;
+  margin-top: -10px;
+  font-style: italic
+}
 p {
   font-family: 'Source Sans Pro', sans-serif;
 }
