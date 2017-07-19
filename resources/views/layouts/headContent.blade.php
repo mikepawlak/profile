@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="theme-color" content="#303F9F" />
+<meta name="theme-color" content="{{$hex}}" />
 
 <!-- general metadata -->
 <meta name="description" content="A Portfolio Site For Mike Pawlak" />

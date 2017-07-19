@@ -14,6 +14,25 @@ $green: #388E3C;
 $purple: #512DA8;
 $orange: #F57C00;
 
+//breakpoint vars
+$small: 576px;
+$med: 768px;
+$large: 992px;
+$huge: 1200px;
+@mixin breakpoint($point) {
+   @if $point == huge {
+     @media (min-width: 1200px) { @content ; }
+  }
+   @else if $point == large {
+     @media (min-width: 992px) { @content ; }
+  }
+    @else if $point == med {
+     @media (min-width: 768px) { @content ; }
+  }
+   @else if $point == phablet {
+     @media (min-width: 576px)  { @content ; }
+  }
+}
 
 //background
 body{
@@ -54,8 +73,12 @@ body{
 }
 
 .content-body {
-  box-shadow: 5px 5px 2px #999;
+  max-width: 1020px;
+  box-shadow: 2px 2px 2px #999;
   background: rgba(255,255,255, 0.8);
+}
+.content-body > div {
+  margin-bottom: 15px
 }
 
 //homepage
@@ -79,8 +102,9 @@ body{
 }
 .branding-purple {
   font-family: 'Source Code Pro', sans-serif;
-  color: #303F9F !important; //override bootstrap colors
+  color: #512DA8 !important; //override bootstrap colors
 }
+
 .subheader {
   color: #455A64;
   margin-top: -10px;
@@ -114,24 +138,20 @@ h1, h2 {
 }
 
 .title-row {
-  background: $blue;
   color: #FFF;
+  box-shadow: 2px 2px 2px #999;
 }
 .title-row-green {
   background: $green;
-  color: #FFF;
 }
 .title-row-red {
   background: $red;
-  color: #FFF;
 }
 .title-row-purple {
   background: $purple;
-  color: #FFF;
 }
 .title-row-orange {
   background: $orange;
-  color: #FFF;
 }
 .nav-item.active > .nav-link {
   color: $blue !important; //override bootstrap colors
@@ -165,9 +185,63 @@ h1, h2 {
   color: $orange;
 }
 
+.green {
+  color: $green;
+}
+.red {
+  color: $red;
+}
+.purple {
+  color: $purple;
+}
+.orange {
+  color: $orange
+}
+.langs {
+  line-height: 2.1
+}
+.lang-pill {
+  box-shadow: 1px 1px 1px #999;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 2px;
+}
+//projects
+.card-block {
+  padding: 0
+}
+.carousel {
+  max-width: 980px;
+  box-shadow: 2px 2px 1px #999;
+}
+.carousel-item {
+  height: 600px;
+
+
+	@include breakpoint(small) {
+		height: 250px
+	}
+
+}
+.carousel-indicators > li {
+  background: $purple;
+}
+.carousel-indicators > li.active {
+  background: #B39DDB;
+}
 //requirements
 h2.req-title{
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about-me-photo {
+  width: 40%;
+  box-shadow: 2px 2px 2px #999;
+  border-radius: 50%;
+  margin: 5px;
+  float: right;
+  shape-outside: circle();
+
 }
 
 //contact

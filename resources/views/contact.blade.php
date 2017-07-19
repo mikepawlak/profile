@@ -1,4 +1,4 @@
-<?php $page = "Contact"; $color = "red"?>
+<?php $page = "Contact"; $color = "red"; $hex = "#D32F2F"?>
 
 @extends('layout', compact($page))
 
@@ -8,7 +8,7 @@
 
 @section('content')
   <div class="container-fluid mt-3">
-    <div class="row title-row-red p-3">
+    <div class="row title-row title-row-{{$color}} p-3">
       <div class="col">
       </div>
       <div class="col-12 col-md-8">

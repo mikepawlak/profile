@@ -10229,9 +10229,14 @@ body {
 }
 
 .content-body {
-  -webkit-box-shadow: 5px 5px 2px #999;
-          box-shadow: 5px 5px 2px #999;
+  max-width: 1020px;
+  -webkit-box-shadow: 2px 2px 2px #999;
+          box-shadow: 2px 2px 2px #999;
   background: rgba(255, 255, 255, 0.8);
+}
+
+.content-body > div {
+  margin-bottom: 15px;
 }
 
 .jumbo-text {
@@ -10260,7 +10265,7 @@ body {
 
 .branding-purple {
   font-family: 'Source Code Pro', sans-serif;
-  color: #303F9F !important;
+  color: #512DA8 !important;
 }
 
 .subheader {
@@ -10302,28 +10307,25 @@ h2 {
 }
 
 .title-row {
-  background: #303F9F;
   color: #FFF;
+  -webkit-box-shadow: 2px 2px 2px #999;
+          box-shadow: 2px 2px 2px #999;
 }
 
 .title-row-green {
   background: #388E3C;
-  color: #FFF;
 }
 
 .title-row-red {
   background: #D32F2F;
-  color: #FFF;
 }
 
 .title-row-purple {
   background: #512DA8;
-  color: #FFF;
 }
 
 .title-row-orange {
   background: #F57C00;
-  color: #FFF;
 }
 
 .nav-item.active > .nav-link {
@@ -10366,8 +10368,69 @@ h2 {
   color: #F57C00;
 }
 
+.green {
+  color: #388E3C;
+}
+
+.red {
+  color: #D32F2F;
+}
+
+.purple {
+  color: #512DA8;
+}
+
+.orange {
+  color: #F57C00;
+}
+
+.langs {
+  line-height: 2.1;
+}
+
+.lang-pill {
+  -webkit-box-shadow: 1px 1px 1px #999;
+          box-shadow: 1px 1px 1px #999;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 2px;
+}
+
+.card-block {
+  padding: 0;
+}
+
+.carousel {
+  max-width: 980px;
+  -webkit-box-shadow: 2px 2px 1px #999;
+          box-shadow: 2px 2px 1px #999;
+}
+
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-indicators > li {
+  background: #512DA8;
+}
+
+.carousel-indicators > li.active {
+  background: #B39DDB;
+}
+
 h2.req-title {
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about-me-photo {
+  width: 40%;
+  -webkit-box-shadow: 2px 2px 2px #999;
+          box-shadow: 2px 2px 2px #999;
+  border-radius: 50%;
+  margin: 5px;
+  float: right;
+  -webkit-shape-outside: circle();
+          shape-outside: circle();
 }
 
 .contact-row {
