@@ -39,6 +39,12 @@ body{
 	margin:0;
 	padding:0;
   background: #FFF url('http://192.168.0.12:8080/img/background.png') repeat 0 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
 	-webkit-animation: 10s linear 0s normal none infinite animate;
 	-moz-animation: 10s linear 0s normal none infinite animate;
 	-ms-animation: 10s linear 0s normal none infinite animate;
@@ -49,17 +55,17 @@ body{
 
 @-webkit-keyframes animate {
 	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+	to { background-position: 1400% 0; }
 }
 
 @-moz-keyframes animate {
 	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+	to { background-position: 1400% 0; }
 }
 
 @-ms-keyframes animate {
 	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+	to { background-position: 1400% 0; }
 }
 
 @-o-keyframes animate {
@@ -69,7 +75,7 @@ body{
 
 @keyframes animate {
 	from {background-position:0 0;}
-	to {background-position: 500px 0;}
+	to { background-position: 1400% 0; }
 }
 
 .content-body {
@@ -248,7 +254,23 @@ h2.req-title{
 .contact-row {
   max-width: 500px
 }
+.contact-wrapper {
+  text-align: center
+}
 .social > div {
   display: inline-block;
-  padding: 5px
+  margin: 5px;
+  height: 60px;
+  box-shadow: 2px 2px 2px #999;
+}
+.social > div > a {
+  color: $blue;
+}
+.social-icon {
+  height: 60px;
+  width: 60px
+}
+
+svg path {
+  fill: $blue;
 }

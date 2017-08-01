@@ -2,9 +2,8 @@
 <html>
 <head>
   <title>Mike Pawlak - Web Developer</title>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <?php $hex = "#FFF" ?>
+  @include('layouts.headContent')
 
   <link href="/css/app.css" rel="stylesheet">
 </head>

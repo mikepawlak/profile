@@ -6,9 +6,11 @@
 <meta name="description" content="A Portfolio Site For Mike Pawlak" />
 <!-- Facebook metadata -->
 <meta property="og:url"                content="http://www.mikepawlak.com" />
+<meta property="og:title"                content="Mike Pawlak - Web Developer" />
 <meta property="og:type"               content="website" />
 <meta property="og:description"        content="A Portfolio Site For Mike Pawlak" />
 <meta property="og:image"              content="http://www.mikepawlak.com/img/projects/portfolio.png" />
+<meta property="fb:app_id" content="135457083715093"/>
 <!-- Twitter metadata -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:url" content="http://www.mikepawlak.com">

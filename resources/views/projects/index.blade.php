@@ -26,7 +26,7 @@
           <h2 class="list-title-purple"><a data-toggle="collapse" href="#Collapse-2" aria-expanded="false">Data On Politics</a></h2>
           <div class="collapse body-collapse" id="Collapse-2">
             <div class="card-block">
-              <div><p><a href="http://www.dataonpolitics.com" target="blank">Data On Politics</a> is a personal project I have been developing for a few months to better understand some areas I sorely lack experience in: digital marketing and SEO. I use my primary stack, MEAN, with <b>HandlebarsJS</b> templating. All tasks, including <b>deployment and maintenance</b>, <b>social media marketing</b>, <b>copywriting</b>, <b>design and development</b>, and <b>image creation</b> have been done by myself in my spare time.</p></div>
+              <div><p><a href="http://www.dataonpolitics.com" target="blank">Data On Politics</a> is a personal project I have been developing for a few months to better understand some areas I sorely lack experience in: digital marketing and SEO. I use my primary stack, MEAN, with <b>HandlebarsJS</b> templating. All tasks, including <b>deployment and maintenance</b>, <b>social media marketing</b>, <b>copywriting</b>, <b>design and development</b>, and <b>image creation</b> have been done by myself in my spare time.</p><p>Some current projects for this site include a Reddit bot and a tool for monitoring state legislatures.</div>
               <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
